@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .outer {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 500px;
+  }
+  .display {
+    border: 2px solid red;
+    height: 20vh;
+  }
+  
+  .firstRow,
+  .secondRow,
+  .thirdRow,
+  .fourthRow {
+    display: flex;
+    width: 100%;
+  }
+  .key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 25%;
+    height: 8vh;
+  }
+  
